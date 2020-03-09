@@ -433,8 +433,12 @@ Deals
   margin-left: 0.5rem;
   background: var(--clr-primary-8);
   color: var(--clr-primary-1);
+  cursor: pointer;
+  transition: var(--transition);
 }
 .btn-submit:hover {
+  background: var(--clr-primary-1);
+  color: var(--clr-primary-5);
 }
 @media screen and (min-width: 992px) {
   .deals-center {
