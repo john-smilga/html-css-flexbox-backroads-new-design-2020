@@ -334,7 +334,7 @@ Featured Tours
   transition: var(--transition);
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transform: scale(1.05);
+  transform: scale(1.1);
   margin-bottom: 2rem;
 }
 .tour-card:hover {
@@ -383,12 +383,12 @@ Featured Tours
     justify-content: space-between;
   }
   .tour-card {
-    flex: 0 0 calc(50% - 1rem);
+    flex: 0 0 calc(50% - 2rem);
   }
 }
 @media screen and (min-width: 1170px) {
   .tour-card {
-    flex: 0 0 calc(33.3333% - 1rem);
+    flex: 0 0 calc(33.3333% - 2rem);
   }
 }
 /*
